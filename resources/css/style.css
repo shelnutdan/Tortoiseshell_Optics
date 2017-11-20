@@ -67,3 +67,24 @@ h1{
   font-weight: bold;
   margin: 0.67rem 0;
 }
+.supporting{
+  display:flex;
+  justify-content: center;
+}
+.service{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin:3rem;
+  width:5rem;
+  height:8rem;
+}
+.service img.paper-icon{
+  width: 3.5rem;
+}
+.service img{
+  width:5rem;
+  margin-bottom:1rem;
+}
